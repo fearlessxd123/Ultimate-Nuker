@@ -1,4 +1,4 @@
-### 🚀 • GIVE 50 STAR TO UNLOCK THE CODE
+### 🚀 • GIVE 10 STAR TO UNLOCK THE CODE
 
 ### 🚀 • TUTORIAL - COMING SOON
 
