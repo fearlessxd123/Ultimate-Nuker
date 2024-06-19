@@ -10,6 +10,7 @@
 
 **Bot Will Also DM You When Server Got Nuked**
 
+**IF PREVIEW IS NOT SHOWING HERE , JOIN FROZEN DEVELOPMENT.**
 
 **[ IMAGE 1 ](https://cdn.discordapp.com/attachments/1204581724105871400/1251832105923641376/IMG_20240616_150133.jpg?ex=667002ff&is=666eb17f&hm=418bd36c09d9ebd97381809d949f7ae5a4b2751fd8e5d602ae3c60568dd85b34&)**
 
