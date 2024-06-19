@@ -4,7 +4,7 @@
 
 
 
-### 🚀 • PREVIEW - 
+### 🚀 • PREVIEW - [YOUTUBE](https://youtube.com/shorts/dn-bsTcfcxQ)
 
 **1K PING PING IN LESS THEN 2 MINUTES**
 
