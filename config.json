@@ -1,0 +1,12 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "prefix": "!",
+  "channelCount": 5,
+  "channelName": "Server Nuked By -----",
+  "messagesPerChannel": 10,
+  "spamMessage": "@everyone @here Join https://dsc.gg/luckycoder",
+  "auctionLogChannelId": "1251725268238864444",
+  "whitelistedServers": [
+    "1222866675859460097"
+  ]
+}

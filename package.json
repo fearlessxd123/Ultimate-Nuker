@@ -1,0 +1,13 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Ultimate Nuker is a very powerful NUKE Bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "LuckyCoder YT",
+  "dependencies": {
+    "discord.js": "^13.17.1"
+  }
+}
