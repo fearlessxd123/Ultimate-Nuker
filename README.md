@@ -1,25 +1,78 @@
-### 🚀 • GIVE 10 STAR TO UNLOCK THE CODE
+### The orginal creator of the code is LuckyCoder YT
 
-### 🚀 • DISCORD - [FROZEN DEVELOPMENT](https://discord.com/invite/UQzrfZcr3X)
+### YouTube - https://youtube.com/@LuckyCoderYT
+
+### Discord - https://dsc.gg/luckycoder
+
+### Don't Remove The Cradit or you will get ©️ Copyright 
 
 
+ # Ultimate Nuker is a very powerful & Advance Discord Server Nuke Bot. 
 
-### 🚀 • PREVIEW - [YOUTUBE](https://youtube.com/shorts/dn-bsTcfcxQ)
+## Installation
 
-**1K PING PING IN LESS THEN 2 MINUTES**
+1. **Clone the repository:**
 
-**Bot Will Also DM You When Server Got Nuked**
+   ```bash
+   git clone https://github.com/fearlessxd123/Ultimate-Nuker.git
+   ```
 
-**IF PREVIEW IS NOT SHOWING HERE , JOIN FROZEN DEVELOPMENT.**
+2. **Install dependencies:**
 
-**[ IMAGE 1 ](https://cdn.discordapp.com/attachments/1204581724105871400/1251832105923641376/IMG_20240616_150133.jpg?ex=667002ff&is=666eb17f&hm=418bd36c09d9ebd97381809d949f7ae5a4b2751fd8e5d602ae3c60568dd85b34&)**
+   ```bash
+   npm install
+   ```
 
-**[ IMAGE 2 ](https://cdn.discordapp.com/attachments/1204581724105871400/1251832105625981000/IMG_20240616_150118.jpg?ex=667002ff&is=666eb17f&hm=41b4517395292bdd92feea41185d6565cc019e920309d8f13f4d8eeb7b6c1f10&)**
+3. **Set up configuration:**
 
-**[ IMAGE 3 ](https://cdn.discordapp.com/attachments/1204581724105871400/1251832105399357541/IMG_20240616_150103.jpg?ex=667002ff&is=666eb17f&hm=1ea6b7842945638031b927da3e44c23a8f5890ad5048018a340593702e28720f&)**
+   - Create a `config.json` file in the root directory.
+   - Add your bot token and other configurations:
 
-**[ IMAGE 4 ](https://media.discordapp.net/attachments/1204581724105871400/1251832104933654558/IMG_20240616_150152.jpg?ex=667002ff&is=666eb17f&hm=7aae7e056135931a6f8851aa9f7551ac53db40ccb53c349808dc07db95f2d7da&)**
+     ```json
+     {
+       "token": "YOUR_BOT_TOKEN",
+       "prefix": "!",
+       "channelCount": 5,
+       "channelName": "spam-channel",
+       "spamMessage": "This is a spam message.",
+       "messagesPerChannel": 10,
+       "whitelistedServers": [],
+       "auctionLogChannelId": "YOUR_AUCTION_LOG_CHANNEL_ID"
+     }
+     ```
 
-**[ IMAGE 5 ](https://media.discordapp.net/attachments/1204581724105871400/1251832104699039846/IMG_20240616_150230.jpg?ex=667002ff&is=666eb17f&hm=80c7b8a50b5013791fda8a37f88f125683ad488a37ac2ad3b905c728b7f1f16f&)**
+     - `token`: Your Discord bot token (obtainable from the [Discord Developer Portal](https://discord.com/developers/applications))
+     - `prefix`: Command prefix for your bot (`!` by default)
+     - `channelCount`: Number of channels to create during nuking
+     - `channelName`: Base name for the created channels during nuking
+     - `spamMessage`: Message to spam in each channel during nuking
+     - `messagesPerChannel`: Number of spam messages per channel
+     - `whitelistedServers`: Array of server IDs where commands are disabled
+     - `auctionLogChannelId`: Channel ID where auction logs will be displayed
 
-**[ IMAGE 6 ](https://cdn.discordapp.com/attachments/1204581724105871400/1251832106179624970/IMG_20240616_150051.jpg?ex=66700300&is=666eb180&hm=ebd1077103ba0518f7b5d472801a193b525ef1e57e5242a273b109469900a0a6&)**
+4. **Start the bot:**
+
+   ```bash
+   npm start
+   ```
+
+   Your bot should now be online and operational on Discord.
+
+## Bot Commands
+
+- **!ping**: Check bot latency.
+- **!uptime**: Check bot uptime.
+- **!nuke**: Initiate a nuke process on a selected server.
+- **!logs**: View auction logs in a specified channel.
+
+## How It Works
+
+- **Ping & Uptime**: Basic commands to check bot responsiveness and uptime.
+- **Nuke Command**: Allows users to select a server and perform a simulated "nuke" action:
+  - Deletes all channels, creates new channels, spams messages, and performs other actions.
+  - Logs the nuke completion in the specified log channel (`auctionLogChannelId`).
+- **Logs Command**: Allows users with `ADMINISTRATOR` permissions to view recent auction logs.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests to suggest improvements or fixes.
